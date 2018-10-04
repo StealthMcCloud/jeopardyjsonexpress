@@ -1,4 +1,4 @@
-module.export = async function (uri) {
+module.exports = async function (uri) {
     const axios = require("axios");
     const response = await axios.get(uri);
 
